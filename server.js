@@ -32,7 +32,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to Express - MongoDB REST API." });
 });
 
 require("./app/routes/turorial.routes")(app);
