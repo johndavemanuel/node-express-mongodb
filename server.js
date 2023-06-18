@@ -4,7 +4,8 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+//   origin: "http://localhost:8081"
+origin: "https://node-express-mongodb.vercel.app"
 };
 
 app.use(cors(corsOptions));
